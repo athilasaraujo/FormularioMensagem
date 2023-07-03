@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- Declaração do tipo de documento com especificação de idioma -->
+<head>
+  <meta charset="UTF-8"> <!-- Codificação de caracteres UTF-8 para suporte a caracteres especiais -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Meta tag para adaptação em dispositivos móveis -->
+  <title>Formulário Mensagem</title> <!-- Título da página exibido na aba do navegador -->
+  <link rel="stylesheet" href="styles.css"> <!-- Link para o arquivo de estilos CSS externo -->
+</head>
+<body>
+  <div class="container"> <!-- Div que agrupa o conteúdo do formulário -->
+    <h1>Entre em contato</h1> <!-- Título principal da página -->
+    <form action="#" method="post"> <!-- Formulário com ação de envio para "#" e método POST -->
+      <label for="name">Nome:</label> <!-- Rótulo para o campo de nome -->
+      <input type="text" id="name" name="name" required> <!-- Campo de entrada de texto para o nome -->
+
+      <label for="email">Email:</label> <!-- Rótulo para o campo de email -->
+      <input type="email" id="email" name="email" required> <!-- Campo de entrada de email -->
+
+      <label for="message">Mensagem:</label> <!-- Rótulo para o campo de mensagem -->
+      <textarea id="message" name="message" rows="4" required></textarea> <!-- Área de texto para a mensagem -->
+
+      <button type="submit">Enviar</button> <!-- Botão de envio do formulário -->
+    </form>
+  </div>
+</body>
+</html>

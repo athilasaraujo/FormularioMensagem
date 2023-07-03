@@ -1,0 +1,67 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+body {
+  font-family: 'Poppins', sans-serif; /* Define a fonte para o corpo do documento */
+  margin: 0; /* Remove as margens externas do corpo do documento */
+  padding: 0; /* Remove os espaços internos do corpo do documento */
+  background-color: #f0f0f0; /* Define a cor de fundo do corpo do documento */
+}
+
+.container {
+  max-width: 500px; /* Define a largura máxima da div "container" */
+  margin: 45px auto; /* Centraliza a div "container" horizontalmente com 45px de margem superior */
+  padding: 30px; /* Adiciona 30px de espaçamento interno na div "container" */
+  background-color: #fff; /* Define a cor de fundo da div "container" como branco */
+  border-radius: 35px; /* Define o raio dos cantos da div "container" para 35px (bordas arredondadas) */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra na div "container" */
+}
+
+h1 {
+  text-align: center; /* Centraliza o título h1 horizontalmente */
+  margin-bottom: 20px; /* Adiciona uma margem inferior de 20px para o título h1 */
+  color: #007bff; /* Adiciona cor ao botão */
+}
+
+form {
+  display: flex; /* Aplica um layout flexível para o formulário e seus elementos */
+  flex-direction: column; /* Alinha os elementos verticalmente em uma coluna */
+}
+
+label {
+  margin-bottom: 5px; /* Adiciona uma margem inferior de 5px para os rótulos */
+  font-weight: bold; /* Define o peso da fonte para os rótulos como negrito */
+}
+
+input, textarea {
+  padding: 10px; /* Adiciona 10px de espaçamento interno para campos de entrada de texto e área de texto */
+  margin-bottom: 12px; /* Adiciona uma margem inferior de 12px para campos de entrada de texto e área de texto */
+  border: 1px solid #ccc; /* Define uma borda de 1px sólida com a cor cinza (#ccc) */
+  border-radius: 4px; /* Define o raio dos cantos dos campos de entrada de texto e área de texto para 4px */
+  width: auto; /* Define a largura dos campos de entrada de texto e área de texto como auto */
+  font-size: 15px; /* Define o tamanho da fonte para 16px */
+}
+
+textarea {
+  resize: vertical; /* Permite redimensionar a área de texto apenas verticalmente */
+}
+
+button {
+  padding: 12px 20px; /* Adiciona 12px de espaçamento interno na vertical e 20px na horizontal para o botão */
+  background-color: #007bff; /* Define a cor de fundo do botão como azul (#007bff) */
+  color: #fff; /* Define a cor do texto do botão como branco */
+  border: none; /* Remove a borda do botão */
+  border-radius: 4px; /* Define o raio dos cantos do botão para 4px */
+  cursor: pointer; /* Muda o cursor do mouse quando estiver sobre o botão */
+  transition: background-color 0.2s; /* Adiciona uma transição suave de 0.2 segundos para a cor de fundo do botão */
+  font-size: 16px; /* Define o tamanho da fonte para 16px */
+}
+
+button:hover {
+  background-color: #0056b3; /* Define a cor de fundo do botão para um tom mais escuro de azul quando o mouse estiver sobre ele */
+}
+
+input:required, textarea:required {
+  border-color: #0b0b0b; /* Define a cor da borda como preto (#0b0b0b) para campos obrigatórios não preenchidos */
+}
+
+
